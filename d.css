@@ -1,0 +1,247 @@
+*{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+}
+html{
+    font-size: 62%;
+    scroll-behavior: smooth;
+    
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+header {
+    position:sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2rem 3rem;
+    
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+ header nav ul li {
+ 
+    font-size: 2rem;
+    background-color: yellow;
+    list-style: none;
+   
+    
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    
+}
+header nav ul li a:hover{
+    color: red
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(118,116,117);
+   
+   background-image: url(../visual/img/skipping.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding-top: 20rem;
+    text-align: center;
+    background-attachment: fixed;
+   
+   
+}
+
+#home h1{
+    margin: 0.5rem;
+font-size:10rem;
+text-shadow: 2px 2px red;
+}
+
+#home a button{
+   
+    margin: 2rem;
+  font-size: 2rem;
+  height: 4rem;
+  width: 14rem;
+  background: transparent;
+  border: 0.2rem solid red; 
+  outline: none;
+  font-size: 1.5rem;
+  cursor:pointer; 
+  color:yellow;
+  font-weight: bold;
+ text-decoration: none;
+ background: red;
+ transition: width 1s;
+}
+#home a button:hover{
+    width: 300px;
+    background: #E6022D;
+    
+
+}
+#photos {
+height:auto;
+width: 100vw;
+display:grid;
+place-items: center;
+
+}
+
+#photos .card-container{
+    width: 90vw;
+    display:flex;
+    justify-content: space-around;
+    margin: 2rem;
+
+}
+
+#photos h3{
+    text-align: center;
+    font-size: 3rem;
+    background-color: blue;
+    margin: 0;
+
+}
+#photos .box{
+    width: 300px;
+    height: 200px;
+    border: 10px solid red;
+padding:20px;
+margin:10px;
+background-image: url(../visual/img/registerimg.jpg);
+background-size: cover;
+text-align: center;
+
+
+
+}
+
+#photos .box1{
+    width: 300px;
+    height: 200px;
+    border: 10px solid red;
+padding:20px;
+margin:10px;
+background-image: url(../visual/img/lake_sunset_trees_126985_1920x1080.jpg);
+background-size: cover;
+text-align: center;
+
+}
+
+#photos .box button{
+  font-size: 2rem;
+    cursor: pointer;
+    margin-top: 19rem;
+    background: transparent;
+    color: white;
+
+    
+}
+#photos .box button:hover{
+   background: tomato;
+}
+
+#photos .box:hover{
+   
+    transform:translateY(-2rem);
+    box-shadow:0 0 2rem yellow;
+}
+
+#photos .box1:hover{
+   
+    transform:translateY(-2rem);
+    box-shadow:0 0 2rem yellow;
+}
+
+#photos a button{   /*.....*/
+
+  border-radius: 1rem;
+  border-color: #E6022D;
+  cursor: pointer;
+  color: blue;
+
+    
+
+}
+#about{
+    height: 100vh;
+    width: 100vw;
+    
+   }
+#about h1{
+   
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    background:green;
+}
+
+#about img{
+    height: auto;
+    width: 50%;
+   -webkit-box-reflect:right 0px linear-gradient(to bottom, rgba(0,0,0,1.0), rgba(0,0,0,0.3));
+
+}
+
+#contact{
+    height: 100vh;
+    width: 100vw;
+    background:rgba(118,116,117);
+    background-image: url(../visual/img/sunrise-oahu.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+}
+
+#contact form{
+    display:flex;
+    flex-flow: column;
+}
+
+#contact form input{
+    height: 4rem;
+    width: 40vw;
+    background: transparent;
+    margin: 2rem 0;
+    padding: 0 1rem;
+    border: 0.2rem solid red;
+    color:white;
+    font-weight: bold;
+   
+}
+
+#contact form input::placeholder{
+    color:black;
+}
+
+#contact form input[type="submit"]:hover {
+    background: #E6022D;
+    color: #fff;
+    cursor: pointer;
+  }
+
+#contact form textarea{
+    background: transparent;
+    border: 0.2rem solid red;
+    color: white;
+}
+
+#contact form textarea::placeholder{
+    color: black;
+}
+
+
